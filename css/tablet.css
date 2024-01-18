@@ -1,35 +1,3 @@
-@media (max-width: 914px) {
-
-    /* header */
-
-    header {
-        padding-inline: 24px;
-        display: flex;
-    }
-
-    .header_nav {
-        display: none;
-    }
-
-    .burger {
-        display: block;
-    }
-
-    .logo {
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .header_logo_earthly {
-        width: 113px;
-    }
-
-    .header_logo_artisry {
-        width: 101px;
-    }
-}
-
-
 @media (max-width: 744px) {
     .header_ul {
         display: none;
@@ -40,10 +8,11 @@
     }
 
     /* Service offers */
-/* 
-    .section_service_offers {
-        display: none;
-    } */
+
+    .article_products {
+        padding-left: 24px;
+     }
+ 
 
     .section_service_offers_media {
         display: block;
@@ -81,4 +50,100 @@
         line-height: 24px;
     }
 
+    /* Subscribe to Newsletter  */
+
+   /* footer */
+   .footer {
+    padding: 87px 24px;
+   }
+
+}
+
+
+@media (max-width: 650px) {
+
+    /* footer */
+
+
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 32px 123px;
+        row-gap: 32px;
+    }
+    .footer_nav {
+        align-items: center;
+    }
+
+  .contact_li {
+    display: inline-block;
+  }
+
+  .contact_li_padding {
+    padding-inline: 24px;
+  }
+
+    .contact_ahref{
+        display: none;
+    }
+
+
+}
+
+
+
+@media (max-width: 601px) {
+
+    /* Subscribe to Newsletter  */
+
+    .section_subscribe_div1 {
+        gap: 32px;
+    }
+
+    .section_subscribe_div1_h4 {
+        font-size: 29px;
+        text-align: center;
+    }
+    .section_subscribe_div1_form {
+        width: 348px;
+    }
+    .section_subscribe_div1_form_input {
+        padding: 19px 93px 18px 16px;
+        width: 216px;
+        height: 56px;
+    
+    }
+    
+    .section_subscribe_div1_form_button {
+        
+        width: 130px;
+        height: 56px;
+    }
+
+}
+
+
+
+
+@media (max-width: 500px) {
+
+    /* cover */
+    
+    .section_cover_content {
+        width: 388px;
+        height: 120px;
+    }
+
+    .section_cover_content_p {
+        font-size: 32px;
+        margin-bottom: 16px;
+    }
+
+     /* Latest Products */
+
+     .section_latest_products_h2 {
+        font-size: 32px;
+    }
+
+   
 }

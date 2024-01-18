@@ -13,4 +13,53 @@
         padding: 120px 218px;
     }
 
+    /* Latest Products */
+
+    .article_products {
+       padding-left: 32px;
+    }
+
+
+    /* footer */ 
+
+    .footer {
+        padding: 80px 32px;
+    }
+
+   
+
+}
+
+
+@media (max-width: 914px) {
+
+    /* header */
+
+    header {
+        padding-inline: 24px;
+        display: flex;
+    }
+
+    .header_nav {
+        display: none;
+    }
+
+    .burger {
+        display: block;
+    }
+
+    .logo {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header_logo_earthly {
+        width: 113px;
+    }
+
+    .header_logo_artisry {
+        width: 101px;
+    }
+
+    
 }
