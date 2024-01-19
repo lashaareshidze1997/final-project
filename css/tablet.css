@@ -1,14 +1,27 @@
 @media (max-width: 744px) {
-    .header_ul {
-        display: none;
+
+     /* cover content */
+
+     .section_cover {
+        padding: 92px 46px;
     }
 
-    .burger {
-        display: block;
+    .section_cover_content {
+        gap: 32px;
     }
+   
+    /* Find Something Beautiful */
+
+    .artWork_section_1_content {
+        height: 256px;
+    }
+
+
+
 
     /* Service offers */
 
+   
     .article_products {
         padding-left: 24px;
      }
@@ -62,6 +75,8 @@
 
 @media (max-width: 650px) {
 
+
+
     /* footer */
 
 
@@ -92,58 +107,101 @@
 
 
 
-@media (max-width: 601px) {
+@media (max-width: 635px) {
+    /* SHOP ALL / artworks card list */
 
-    /* Subscribe to Newsletter  */
+    .shop_products_section {
+        padding: 64px 24px;
+    }
+   .shop_products_section_title_h5 {
+    font-size: 20px;
+   }
 
-    .section_subscribe_div1 {
-        gap: 32px;
-    }
-
-    .section_subscribe_div1_h4 {
-        font-size: 29px;
-        text-align: center;
-    }
-    .section_subscribe_div1_form {
-        width: 348px;
-    }
-    .section_subscribe_div1_form_input {
-        padding: 19px 93px 18px 16px;
-        width: 216px;
-        height: 56px;
-    
-    }
-    
-    .section_subscribe_div1_form_button {
-        
-        width: 130px;
-        height: 56px;
-    }
+   .sort {
+    padding: 6px 15px 5px 15px;
+   }
 
 }
 
 
 
+@media (max-width: 601px) {
+
+    /* Find Something Beautiful */
+
+    .artWork_section_1_content {
+        gap: 32px;
+    }
+    .artWork_section_1_p {
+        font-size: 32px;
+    }
+    .subscribe_form {
+        width: 408px;
+    }
+
+    /* Subscribe to Newsletter  */
+    .section_subscribe {
+        width: 100%;
+        height: 320px;
+    }
+
+    .section_subscribe_content {
+        height: 320px;
+        gap: 32px;
+
+    }
+
+    .section_subscribe_content_p {
+        font-size: 32px;
+    }
+
+    .subscribe-form {
+        width: 347px;
+    }
+    
+    .section_cover_content {
+        gap: 32px;
+    }
+    .section_cover_content_p {
+        font-size: 32px;
+    }
+
+}
+
+@media (max-width: 592px) {
+    /* SHOP ALL / artworks card list */
+    .shop_products_section {
+        gap: 42px;
+    }
+    .shop_products_section_card {
+        width: 47%;
+    }
+
+    .page_number_border {
+        width: 38px;
+        height: 38px;
+    }
+
+    .page_number_border_hidden {
+        display: none;
+    }
+   
+
+}
+
 
 @media (max-width: 500px) {
 
-    /* cover */
-    
-    .section_cover_content {
-        width: 388px;
-        height: 120px;
-    }
-
-    .section_cover_content_p {
-        font-size: 32px;
-        margin-bottom: 16px;
-    }
 
      /* Latest Products */
 
      .section_latest_products_h2 {
         font-size: 32px;
     }
+
+    .shop_products_section_title_h5 {
+        font-size: 16px;
+       }
 
    
 }
