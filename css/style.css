@@ -115,7 +115,7 @@ h6 {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("/images/cover1.png");
+    background-image: url("../images/cover1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -353,7 +353,7 @@ h6 {
 
 .section_subscribe {
     padding-block: 160px;
-    background-image: url("/images/Rectangle\ 98.png");
+    background-image: url("../images/Rectangle\ 98.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -498,7 +498,7 @@ h6 {
     width: 100%;
     /* height: auto; */
     padding-block: 204px;
-    background-image: url("/images/Rectangle\ 107.png");
+    background-image: url("../images/Rectangle\ 107.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -795,7 +795,7 @@ h6 {
 /* contact page email form */
 
 .contact_section_email_form {
-    background-image: url("/images/Rectangle\ 108.png");
+    background-image: url("../images/Rectangle\ 108.png");
     background-size: cover;
     background-position: center;
     padding: 160px 0 160px 220px;
