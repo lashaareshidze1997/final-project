@@ -351,14 +351,6 @@ h6 {
 
 /* Subscribe to Newsletter  */
 
-.section_subscribe {
-    padding-block: 160px;
-    background-image: url("./../images/Rectangle\ 98.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-
-}
 
 .section_subscribe_content {
     display: flex;
@@ -580,10 +572,7 @@ h6 {
     transform: translateY(1px);
 }
 
-/* .artwork_button:hover 
-    :hover {
-    background-color: #df3b25;
-} */
+
 
 .artwork_button:hover {
     background-color: #e36d50;
