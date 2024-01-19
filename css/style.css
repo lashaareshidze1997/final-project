@@ -151,7 +151,23 @@ h6 {
     border: 2px solid #B53B1B;
     background: #FFF;
     box-shadow: 0px 4px 4px 0px #581504;
+
+    animation: pulse 2s infinite alternate;
 }
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+.animate {
+    animation: scaleIn 10s ease;
+}
+
 
 .section_cover_content_bottom:active {
     transform: translateY(4px);
