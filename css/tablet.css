@@ -2,9 +2,9 @@
 
      /* cover content */
 
-     .section_cover {
+     /* .section_cover {
         padding: 92px 46px;
-    }
+    } */
 
     .section_cover_content {
         gap: 32px;
@@ -12,10 +12,8 @@
    
     /* Find Something Beautiful */
 
-    .artWork_section_1_content {
-        height: 256px;
-    }
 
+   
 
 
 
@@ -65,6 +63,25 @@
 
     /* Subscribe to Newsletter  */
 
+
+    .Subscribe_to_Newsletter {
+        height: 80vh;
+    }
+
+
+    /* contact page email form */
+
+    .contact_section_email_form {
+        padding: 160px 0 160px 24px;  
+}
+
+
+
+    /* section contact page map adrees */ 
+
+   
+
+
    /* footer */
    .footer {
     padding: 87px 24px;
@@ -72,10 +89,49 @@
 
 }
 
+@media (max-width: 701px) {
+
+
+
+      /* section contact page map adrees */ 
+
+    .iframe_map {
+        width: 600px;
+    }
+
+
+
+}
+
 
 @media (max-width: 650px) {
 
 
+
+    .section_cover {
+        padding: 100px 0;
+    }
+
+
+
+    .section_subscribe {
+        padding-block: 80px;
+        background-image: url("/images/Rectangle\ 98\ \(1\).png");
+    }
+
+       
+
+        .section_subscribe_content {
+            gap: 32px;
+    }
+
+    /* .section_subscribe_content_p {
+        font-size: 32px;
+    }
+
+    .subscribe-form {
+        width: 400px;
+    } */
 
     /* footer */
 
@@ -117,9 +173,33 @@
     font-size: 20px;
    }
 
-   .sort {
-    padding: 6px 15px 5px 15px;
-   }
+
+
+
+   .iframe_map {
+    width: 500px;
+}
+
+
+.artWork_section_1 {
+    padding-block: 137px;
+   
+}
+.artWork_section_1_content {
+    gap: 30px;
+}
+
+.artWork_section_1_p {
+    font-size: 32px;
+}
+
+.subscribe_form {
+    width: 346px;
+}
+
+
+
+
 
 }
 
@@ -129,24 +209,35 @@
 
     /* Find Something Beautiful */
 
-    .artWork_section_1_content {
-        gap: 32px;
-    }
-    .artWork_section_1_p {
-        font-size: 32px;
-    }
-    .subscribe_form {
-        width: 408px;
-    }
+    
 
     /* Subscribe to Newsletter  */
-    .section_subscribe {
-        width: 100%;
-        height: 320px;
+
+
+
+    .Subscribe_to_Newsletter_div_h4 {
+        font-size: 32px;
+        padding-bottom: 32px;
     }
 
-    .section_subscribe_content {
+    .subscribeForm_input {
+        padding: 19px 70px 18px 16px;
+    }
+
+
+
+
+
+
+
+
+    /* .section_subscribe {
+        width: 100%;
         height: 320px;
+    } */
+
+    .section_subscribe_content {
+        /* height: 320px; */
         gap: 32px;
 
     }
@@ -155,10 +246,16 @@
         font-size: 32px;
     }
 
-    .subscribe-form {
-        width: 347px;
-    }
+
+     .newslater_form {
+        width: 346px;
+    } 
     
+
+
+
+
+
     .section_cover_content {
         gap: 32px;
     }
@@ -188,6 +285,42 @@
    
 
 }
+
+@media (max-width: 550px) {
+
+/* contact page email form */
+
+    .contact_section_email_form {
+        padding: 80px 24px;  
+}
+.contact_section_email_form_main {
+    width: 100%;
+    max-width: 432px;
+}
+
+.contact_section_email_form_h2 {
+    font-size: 32px;
+}
+
+.contact_section_email_form_input {
+    width: 160px;
+}
+
+.section_adrees_map {
+    padding-block: 62px;
+}
+.section_adrees_map_contact {
+    gap: 40px;
+}
+.iframe_map {
+    width: 450px;
+}
+
+
+}
+
+
+
 
 
 @media (max-width: 500px) {

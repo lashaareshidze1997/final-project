@@ -12,6 +12,13 @@
         padding: 64px 48px;
     }
 
+
+   
+
+
+
+
+
     /* Latest Products */
 
     .section_latest_products {
@@ -27,12 +34,83 @@
     .shop_products_section_card {
         width: 100%;
     }
+
+/* section contact page map adrees */
+
+.section_adrees_map_h3 {
+    font-size: 32px;
+
+}
+    .iframe_map {
+        width: 432px;
+    }
+
+
    
 
 }
 
+@media (max-width: 450px) {
+    /* contact page email form */
 
-@media (max-width: 390px) {
+    .contact_section_email_form {
+        padding: 80px 20px;  
+}
+.contact_section_email_form_main {
+    width: 100%;
+    max-width: 410px;
+}
+
+.contact_section_email_form_h2 {
+    font-size: 30px;
+}
+
+.contact_section_email_form_input {
+    width: 130px;
+}
+
+.iframe_map {
+    width: 350px;
+}
+
+.section_adrees_map_contact_left_div {
+    gap: 40px;
+}
+
+.section_subscribe_content_p {
+    font-size: 20px;
+}
+
+
+
+/* .newslater_form {
+    width: 200px;
+} */
+
+
+}
+
+@media (max-width: 420px) {
+    .artWork_section_1 {
+        padding-block: 80px;
+    }
+    
+    .artWork_section_1_p {
+        font-size: 24px;
+    }
+    /* .subscribe_form {
+        width: 335px;
+    } */
+
+    .sort {
+        padding: 0;
+    }
+    
+}
+
+
+
+@media (max-width: 400px) {
     /* index file */
    
     .section_cover_content_p {
@@ -44,4 +122,93 @@
         height: 45px;
     }
 
+
+    .section_service_offers_1, .section_service_offers_2 {
+        flex-direction: column;
+        
+    }
+
+    .section_subscribe_content_p {
+        font-size: 20px;
+    }
+
+    /* .subscribe-form {
+        width: 300px;
+    } */
+
+
+
+    .Subscribe_to_Newsletter_div_h4 {
+        font-size: 20px;
+        padding-bottom: 25px;
+    }
+
+    .subscribeForm_input {
+        width: 170px;
+        height: 40px;
+    }
+
+    .subscribeForm_botton {
+        padding: 17px 0 17px 0;
+        font-size: 14px;
+        height: 40px;
+    }
+
+
+
+
+}
+
+
+@media (max-width: 370px) {
+
+    .contact_section_email_form_input {
+        width: 100px;
+    }
+
+    .contact_li_padding {
+        padding-inline: 5px;
+    }
+
+
+    .iframe_map {
+        width: 250px;
+        height: auto;
+    }
+    
+    .section_adrees_map_contact_left_div {
+        gap: 20px;
+    }
+
+
+
+
+
+
+    .artWork_section_1 {
+        padding-block: 70px;
+       
+    }
+    .artWork_section_1_content {
+        gap: 20px;
+    }
+    
+    .artWork_section_1_p {
+        font-size: 20px;
+    }
+    .subscribe_form {
+        width: 300px;
+    }
+
+    .subscribe_form_input {
+        padding: 0;
+    }
+
+    .shop_products_section_title_h5 {
+        font-size: 14px;
+    }
+
+    .sort span  {
+        font-size: 16px;
+    }
 }

@@ -88,6 +88,27 @@ h6 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* cover content */
 
 .section_cover {
@@ -265,9 +286,9 @@ h6 {
 }
 
 .article_products_1:hover {
-    box-shadow: 0px 10px 5px 0px #000000;
-
+    border-bottom: 5px solid #000;
 }
+
 
 .article_products_1_img {
     border-radius: 8px 8px 0px 0px;
@@ -331,7 +352,7 @@ h6 {
 /* Subscribe to Newsletter  */
 
 .section_subscribe {
-    height: 560px;
+    padding-block: 160px;
     background-image: url("/images/Rectangle\ 98.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -340,7 +361,6 @@ h6 {
 }
 
 .section_subscribe_content {
-    height: 480px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -358,14 +378,14 @@ h6 {
     line-height: normal;
 }
 
-.subscribe-form {
+.newslater_form {
     width: 482px;
     height: 56px;
     display: flex;
     align-items: center;
 }
 
-.subscribe-input {
+.newslater_input {
     background-color: #D5906E;
     flex: 1;
     height: 100%;
@@ -396,14 +416,88 @@ h6 {
 }
 
 
+.Subscribe_to_Newsletter {
+    background: url('/images/Rectangle\ 98.png') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Subscribe_to_Newsletter_div_h4 {
+    color: #FFF;
+    text-shadow: 0px 4px 4px #402101;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-bottom: 54px;
+    text-align: center;
+}
+
+#subscribeForm {
+    display: flex;
+    border: 2px solid #fff;
+    border-radius: 12px;
+}
+
+.subscribeForm_input {
+    display: flex;
+    /* width: 333px; */
+    height: 56px;
+    padding: 19px 208px 18px 16px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px 0px 0px 10px;
+    background: #D5906E;
+    border: none;
+}
+
+.subscribeForm_botton {
+    display: flex;
+    height: 56px;
+    padding: 17px 25px 17px 26px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 10px 10px 0px;
+    background: #FFF;
+    border: none;
+    color: #402101;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    cursor: pointer;
+}
+
+.subscribeForm_botton:hover {
+    background-color: #eadbdb;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Find Something Beautiful  */
 
 
 
-.artWork_section_1 {
 
+.artWork_section_1 {
+    width: 100%;
+    /* height: auto; */
+    padding-block: 204px;
     background-image: url("/images/Rectangle\ 107.png");
     background-repeat: no-repeat;
     background-size: cover;
@@ -411,7 +505,6 @@ h6 {
 }
 
 .artWork_section_1_content {
-    height: 560px;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -453,7 +546,12 @@ h6 {
     color: rgba(213, 144, 110, 0.52);
 }
 
-::placeholder {
+
+
+
+
+
+.subscribe_form_input::placeholder {
     color: rgba(213, 144, 110, 0.52);
 }
 
@@ -471,6 +569,39 @@ h6 {
     font-weight: 400;
     line-height: 22px;
 }
+
+.artwork_button:active {
+    transform: translateY(1px);
+}
+
+/* .artwork_button:hover 
+    :hover {
+    background-color: #df3b25;
+} */
+
+.artwork_button:hover {
+    background-color: #e36d50;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -501,8 +632,6 @@ h6 {
 
 .sort {
     display: flex;
-    /* width: 160px;
-    height: 45px; */
     padding: 8px 21px;
     justify-content: center;
     align-items: center;
@@ -510,6 +639,11 @@ h6 {
     border-radius: 5px;
     border: 2px solid #B53B1B;
     background: #FFF;
+    cursor: pointer;
+}
+
+.sort:hover {
+    background-color: #a03e26;
 }
 
 .sort span {
@@ -522,12 +656,35 @@ h6 {
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* SHOP ALL / artworks card list */
 
 
 .shop_products_section_card_list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     gap: 24px;
 }
 
@@ -550,6 +707,28 @@ h6 {
 .shop_products_section_card_figure_image {
     width: 100%;
     border-radius: 8px 8px 0px 0px;
+}
+
+.shop_products_section_card_figure_image:hover {
+    animation: zoom-in-zoom-out 1s ease;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.02, 1.02);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+
+.shop_products_section_card_price_shop_cart:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .shop_products_section_card_figcaption {
@@ -608,6 +787,174 @@ h6 {
 .page_number_border_active {
     background: #B53B1B;
 }
+
+
+
+
+
+/* contact page email form */
+
+.contact_section_email_form {
+    background-image: url("/images/Rectangle\ 108.png");
+    background-size: cover;
+    background-position: center;
+    padding: 160px 0 160px 220px;
+}
+
+.contact_section_email_form_main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+    height: 400px;
+    padding: 24px 30px;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid #FFF;
+    background: rgba(64, 33, 1, 0.90);
+    box-shadow: -1px -1px 4px 0px #FFF;
+    gap: 36px;
+}
+
+.contact_section_email_form_h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+}
+
+
+
+.contact_section_email_form_input_div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_section_email_form_input {
+    width: 190px;
+    height: 40px;
+    align-items: center;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+}
+
+.contact_section_email_form_textarea {
+    display: flex;
+    width: 100%;
+    height: 96px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 2px solid #FFF;
+}
+
+.contact_section_email_form_submit {
+    display: inline-flex;
+    width: 147px;
+    height: 56px;
+    padding: 19px 42px 18px 43px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FF543E;
+    color: #FFF;
+    border: none;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19px;
+}
+
+.contact_section_email_form_submit:active {
+    transform: translateY(4px);
+}
+
+.contact_section_email_form_submit:hover {
+    background-color: #df3b25;
+}
+
+
+
+/* section contact page map adrees */
+
+
+.section_adrees_map {
+    display: flex;
+    flex-direction: column;
+    padding-block: 120px;
+    background: #EA904F;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.section_adrees_map_h3 {
+    color: #FFF;
+    text-shadow: 0px 4px 4px #000;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.section_adrees_map_contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 94px;
+}
+
+.section_adrees_map_contact_left_div {
+    display: flex;
+    flex-direction: column;
+    gap: 72px;
+}
+
+.section_adrees_map_contact_left_div_content {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+
+.section_adrees_map_contact_left_div_image:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+.section_adrees_map_contact_left_div_content_p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.section_adrees_map_contact_left_div_image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 46px;
+    height: 46px;
+    background: #B53B1B;
+    border: 2px solid #fff;
+
+}
+
+
+
+
+
+
+
+
 
 
 
