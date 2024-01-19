@@ -417,7 +417,7 @@ h6 {
 
 
 .Subscribe_to_Newsletter {
-    background: url('/images/Rectangle\ 98.png') center/cover no-repeat;
+    background: url("./../images/Rectangle\ 98.png") center/cover no-repeat;
     height: 100vh;
     display: flex;
     justify-content: center;
