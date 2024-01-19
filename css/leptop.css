@@ -75,7 +75,7 @@
     }
 
     .artWork_section_1 {
-        background-image: url("/images/Rectangle\ 110.png");
+        background-image: url("./../images/Rectangle\ 110.png");
     }
 
 }
@@ -129,7 +129,7 @@
 
 
     .section_cover {
-        background-image: url("/images/Rectangle\ 106.png");
+        background-image: url("./../images/Rectangle\ 106.png");
     }
 
     
